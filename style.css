@@ -4,10 +4,13 @@ body {
 
 h1 {
   text-align: center;
- font-size: 85px;
-  font-family: bradley hand;
+ font-size: 75px;
+  font-family: 'Indie Flower';
+color: black;
+}
 
-color: white;
+h1.light {
+  font-weight: lighter;
 }
 
 ul#menu li {
