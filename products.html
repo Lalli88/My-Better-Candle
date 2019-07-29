@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
-  <link href="css/business-casual.css" rel="stylesheet">
+  <link href="candles.css" rel="stylesheet">
 
 </head>
 
@@ -28,7 +28,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">My Better Candle</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,7 +55,7 @@
       </div>
     </div>
   </nav>
-
+<form>
   <section class="page-section">
     <div class="container">
       <div class="product-item">
@@ -70,11 +70,17 @@
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Tell us your wishes! What would you like your candle to smell like? Choose from our list or add anything else to your special candle.</p>
-            <div>
-              <textarea id="subject" name="subject" placeholder="Your chosen scent(s)..."></textarea>
-  <button type="next" class="btn btn-primary">Next</button>
+            <div class="container">
+              <div class="row">
+                <p class="mb-0">Tell us your wishes! What would you like your candle to smell like? Choose from our list or add anything else to your special candle.</p>
+                <div class="col-10">
+                <textarea id="subject" name="subject" placeholder="Your chosen scent(s)..." class="form-control"></textarea>
+                </div>
+                <div class="col">
+                  <button type="next" class="btn btn-primary btn-products">Next</button>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -95,15 +101,19 @@
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg">
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Would you like your candle to represent an elf? Or maybe the face of your dog? We will make it.
-            Would you like the biggest candle ever seen produced? Or perhaps just a very small one? We can do it!
-          NOTE: The smaller the size, the limited the shape.</p>
-          <div>
-            <textarea id="subject" name="subject" placeholder="Tell us more..."></textarea>
-<button type="next" class="btn btn-primary">Next</button>
+            <div class="container">
+              <div class="row">
+                <p class="mb-0">Would you like your candle to represent an elf? Or maybe the face of your dog? We will make it.
+                Would you like the biggest candle ever seen produced? Or perhaps just a very small one? We can do it!
+              NOTE: The smaller the size, the limited the shape.</p>
+                <div class="col-10">
+                <textarea id="subject" name="subject" placeholder="Tell us more..." class="form-control"></textarea>
+                </div>
+                <div class="col">
+                  <button type="next" class="btn btn-primary btn-products">Next</button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -122,11 +132,17 @@
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Write the message that you prefer, stick any picture on your label, or simply leave it blank and we'll fill for you, with as much love and creativity as we put in the candle.</p>
-            <div>
-              <textarea id="subject" name="subject" placeholder="Type your message here:"></textarea>
-  <button type="submit" class="btn btn-primary">Get quote</button>
+            <div class="container">
+              <div class="row">
+                <p class="mb-0">Write the message that you prefer, stick any picture on your label, or simply leave it blank and we'll fill for you, with as much love and creativity as we put in the candle.</p>
+                <div class="col-10">
+                <textarea id="subject" name="subject" placeholder="Type your message here:" class="form-control"></textarea>
+                </div>
+                <div class="col">
+                  <button type="next" class="btn btn-primary btn-products">Next</button>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -180,7 +196,7 @@
       </div>
     </div>
   </section>
-
+</form>
   <footer class="footer text-faded text-center py-5">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div>
