@@ -177,7 +177,7 @@ p {
   .product-item .product-item-title {
     position: relative;
     z-index: 1;
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
   }
   .product-item .product-item-img {
     position: relative;
@@ -187,7 +187,7 @@ p {
   .product-item .product-item-description {
     position: relative;
     z-index: 1;
-    margin-top: -3rem;
+    margin-top: -1rem;
     max-width: 50vw;
   }
 }
@@ -217,10 +217,6 @@ p {
 
 .address strong {
   font-size: 1.2rem;
-}
-
-.form-inline {
-  padding: 20px;
 }
 
 .footer {
