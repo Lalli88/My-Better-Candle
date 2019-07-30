@@ -313,3 +313,11 @@ text-decoration: none;
 .employeeCarousel {
   margin-top: 50px;
 }
+
+.about-heading-content p {
+  margin-bottom: 35px;
+}
+
+.section-heading .mb-4 h2 {
+  margin-bottom: 0.5rem!important;
+}
